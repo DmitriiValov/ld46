@@ -1,7 +1,8 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Decorations.tres" type="TileSet" id=1]
 [ext_resource path="res://audio/gameplay3.ogg" type="AudioStream" id=2]
+[ext_resource path="res://player2/player2.tscn" type="PackedScene" id=3]
 [ext_resource path="res://player/Player.tscn" type="PackedScene" id=4]
 [ext_resource path="res://background/ParallaxBg.tscn" type="PackedScene" id=5]
 [ext_resource path="res://GameScene.tres" type="TileSet" id=8]
@@ -44,3 +45,6 @@ currentLevel = 2
 [node name="music" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 2 )
 autoplay = true
+
+[node name="Player2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1124.09, 409.91 )
