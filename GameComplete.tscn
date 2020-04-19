@@ -39,7 +39,7 @@ cameraScale = 1.0
 [node name="Objects" type="Node2D" parent="."]
 
 [node name="Fire" parent="Objects" instance=ExtResource( 10 )]
-position = Vector2( 681.799, 425.727 )
+position = Vector2( 868.476, 427.141 )
 currentLevel = 2
 
 [node name="music" type="AudioStreamPlayer2D" parent="."]
